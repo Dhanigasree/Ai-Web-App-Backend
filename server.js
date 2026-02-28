@@ -43,3 +43,16 @@ app.post("/calculate", (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
+
+
+
+
+
+
+
+
+create a nginx container 
+deploy your web app inside the container
+expose through the web
+and convert this container into a docker image
+and push the docker image into hub.docker.com
